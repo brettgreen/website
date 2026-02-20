@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Avenir', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    color: #181818;
+    background: #fff;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    color: #216190;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header / Navigation */
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px 0 20px;
+}
+
+.header-inner {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.site-title {
+    font-family: 'Raleway', 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #181818;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+
+.site-title a {
+    color: #181818;
+    text-decoration: none;
+}
+
+.site-subtitle {
+    font-size: 14px;
+    color: #555;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 24px;
+}
+
+nav a {
+    font-size: 14px;
+    color: #181818;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    padding: 4px 0;
+}
+
+nav a:hover {
+    color: #216190;
+}
+
+nav a.active {
+    color: #216190;
+    border-bottom: 2px solid #216190;
+}
+
+/* Main content */
+main {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 40px 30px 60px;
+}
+
+/* Home page layout */
+.home-layout {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.home-photo {
+    flex-shrink: 0;
+}
+
+.home-photo img {
+    width: 320px;
+    border-radius: 4px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.home-text h1 {
+    font-family: 'Raleway', 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #181818;
+    margin-bottom: 6px;
+}
+
+.home-text .affiliation {
+    font-size: 17px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.home-section {
+    margin-top: 30px;
+}
+
+.home-section h2 {
+    font-family: 'Raleway', 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 8px;
+    letter-spacing: 0.3px;
+}
+
+.home-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home-section li {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+/* Contact section */
+.contact-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-family: 'Raleway', 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 8px;
+}
+
+.contact-section p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Publications & Working Papers */
+.page-title {
+    font-family: 'Raleway', 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #181818;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
+}
+
+.paper {
+    margin-bottom: 35px;
+}
+
+.paper-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 3px;
+}
+
+.paper-title a {
+    color: #181818;
+}
+
+.paper-title a:hover {
+    color: #216190;
+}
+
+.paper-journal {
+    font-style: italic;
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.paper-authors {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.paper-status {
+    font-size: 14px;
+    color: #216190;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.paper-details {
+    margin-bottom: 8px;
+}
+
+.paper-details summary {
+    font-size: 13px;
+    color: #216190;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+}
+
+.paper-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.paper-details summary::before {
+    content: '▸ ';
+}
+
+.paper-details[open] summary::before {
+    content: '▾ ';
+}
+
+.paper-details summary:hover {
+    text-decoration: underline;
+}
+
+.paper-abstract {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.65;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.paper-links {
+    font-size: 13px;
+}
+
+.paper-links a {
+    color: #216190;
+    margin-right: 12px;
+}
+
+.paper-links a:hover {
+    text-decoration: underline;
+}
+
+.paper-media {
+    font-size: 13px;
+    color: #888;
+    margin-top: 4px;
+}
+
+.paper-media a {
+    color: #216190;
+}
+
+.paper-award {
+    font-size: 14px;
+    color: #b8860b;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 13px;
+    color: #999;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .home-layout {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .home-photo img {
+        width: 180px;
+    }
+
+    main {
+        padding: 25px 20px 40px;
+    }
+
+    .header-inner {
+        padding: 0 20px;
+    }
+
+    nav {
+        gap: 4px 16px;
+    }
+
+    .site-title {
+        font-size: 22px;
+    }
+}

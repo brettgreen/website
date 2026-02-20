@@ -24,7 +24,7 @@ Migrating from Wix to a free static site hosted on GitHub Pages.
 
 ## Key Details
 - Domain: brettgreen.info (custom domain, user wants to keep it)
-- Google Scholar: https://scholar.google.com/citations?user=JmkNxGMAAAAJ
+- Google Scholar: https://scholar.google.com/citations?user=3lDWe9kAAAAJ&hl=en
 - SSRN: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1010842
 - Email: b.green@wustl.edu
 - Affiliation: Olin Business School, Washington University in St. Louis
