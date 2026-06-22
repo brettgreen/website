@@ -5,3 +5,14 @@ node_modules/
 .wix/
 jsconfig.json
 .DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.nav
+*.snm
+*.toc
